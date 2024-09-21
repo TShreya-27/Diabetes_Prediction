@@ -19,7 +19,7 @@ sys.stdout.reconfigure(encoding='utf-8')
 model = load_model('Diabetes_Prediction.h5')
 
 # Set up Streamlit input fields for the 8 features
-st.title('Diabetes Prediction App')
+st.title('Diabetes Prediction')
 
 gender = st.selectbox('Gender', ['Male', 'Female'])
 age = st.slider('Age', 0, 100, 25)
