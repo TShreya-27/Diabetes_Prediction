@@ -5,6 +5,13 @@ import pandas as pd
 from keras.models import load_model
 from sklearn.preprocessing import StandardScaler
 
+# Set the page config
+st.set_page_config(
+    page_title="Diabetes Prediction",  # Change this to your desired title
+    page_icon="🍩",  # Optional: You can add an emoji or a path to an icon
+    layout="wide"  # Optional: You can set the layout to "centered" or "wide"
+)
+
 # Set the default encoding to utf-8
 sys.stdout.reconfigure(encoding='utf-8')
 
